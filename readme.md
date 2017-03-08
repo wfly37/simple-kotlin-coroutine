@@ -1,4 +1,4 @@
-# Minimal Kotlin coroutine example
+# Minimal Kotlin coroutine example [![Build Status](https://travis-ci.org/steverichey/kotlin-coroutine-minimal-example.svg?branch=master)](https://travis-ci.org/steverichey/kotlin-coroutine-minimal-example)
 
 This is a minimal working example of using [Kotlin](http://kotlinlang.org/) [coroutines](https://blog.jetbrains.com/kotlin/2016/07/first-glimpse-of-kotlin-1-1-coroutines-type-aliases-and-more/). Kotlin is a neat language that offers simple, [Swift](https://swift.org/) style syntax while targeting the JVM, meaning it works everywhere that Java does. Kotlin's coroutines are experimental but, so far, offer a very promising approach to issues related to asynchronous programming. More information on the use and features of coroutines is available [here](https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md). The syntax should be very familiar to anyone who has worked with Swift's [Dispatch](https://developer.apple.com/videos/play/wwdc2016/720/) or `async`/`await` in [C#](https://msdn.microsoft.com/en-us/library/kx37x362.aspx).
 
