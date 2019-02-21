@@ -10,10 +10,6 @@ This project builds using the [Gradle Wrapper](https://docs.gradle.org/3.4.1/use
 
 Run the top-level file `run`. That's it. This is a tiny script that calls the Gradle Wrapper, which in turn will set up Gradle and run the provided example. In this case, we're just running [this example](https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/src/test/kotlin/guide/example-basic-03.kt) from the Kotlin coroutine documentation, which creates 100,000 coroutines which each wait one second and then print a dot.
 
-# Distribute
-
-Run the top-level file `distribute`. That's it. By default, Gradle will bundle up the required Java archives (`.jar` files) and executables for Unix and Windows and compress these as `.tar` and `.zip` files in `build/distributions`. These archives can be distributed and the executables therein used on any platform with Java available.
-
 # License
 
 &copy; 2017 [Steve Richey](https://github.com/steverichey). Shared under an [MIT license](https://en.wikipedia.org/wiki/MIT_License). See [license.md](./license.md) for details.
