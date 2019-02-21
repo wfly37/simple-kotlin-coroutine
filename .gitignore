@@ -2,3 +2,6 @@
 build
 .DS_Store
 .localized
+*.xml
+*.iml
+
